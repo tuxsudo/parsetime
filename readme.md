@@ -3,7 +3,7 @@
 Flexible time parsing - intended for extracting the time of day from user input.
 
 ```
-import {parse} from './index.js';
+import {parse} from '@tuxsudo/parsetime';
 
 const {hours, minutes, seconds, time12, time24} = parse('1p');
 
@@ -18,6 +18,6 @@ const {hours, minutes, seconds, time12, time24} = parse('1p');
 ## With CommonJS
 
 ```
-const timeparser = require('parse');
+const timeparser = require('@tuxsudo/parsetime');
 timeparser.parse('333a');
 ```
